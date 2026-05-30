@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="uk">
+<head>
+<meta charset="UTF-8">
+<title>Flexbox сторінка</title>
+
+<style>
+body{
+    margin:0;
+    font-family:Arial;
+    background-image: url("https://static5.depositphotos.com/1053646/520/i/450/depositphotos_5203785-stock-photo-fresh-roses-frame.jpg"); 
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+header{
+    background:pink;
+    color:black;
+    text-align:center;
+    padding:20px;
+}
+
+nav{
+    background:mediumpurple;
+    min-height:50px;
+}
+
+nav ul{
+    margin:0;
+    padding:0;
+}
+
+nav li{
+    list-style:none;
+    float:left;
+    width:120px;
+}
+
+nav a{
+    display:block;
+    line-height:50px;
+    text-decoration:none;
+    color:black;
+    text-align:center;
+}
+
+nav a:hover{
+    background:mediumpurple;
+}
+
+.container{
+    display:flex;
+}
+
+.box{
+    flex:1;
+    background-color: FFF7ED;
+    border:1px solid gray;
+    padding:20px;
+    text-align:center;
+}
+
+footer{
+    background:pink;
+    color:black;
+    text-align:center;
+    padding:15px;
+}
+</style>
+</head>
+
+<body>
+
+<header>
+<h1>Галерея</h1>
+<p>Ця сторінка є галереєю фотографій квітів. Тут зібрані зображення найкрасивіших, найрідкісніших і найцікавіших квітів, щоб показати їхню витонченість, різноманітність форм і кольорів. Кожна світлина передає особливу атмосферу природи та дозволяє ближче познайомитися з дивовижним світом рослин. 
+</p>
+</header>
+
+<nav>
+<ul>
+<li><a href="index.html">Головна</a></li>
+<li><a href="about.html">Про нас</a></li>
+<li><a href="gallery.html">Галерея</a></li>
+</ul>
+</nav>
+
+<center>
+        <p>
+            <img src="https://images.openai.com/static-rsc-4/T5K7pLzLd_PwjuEfA1YqJx_z5c4_08lin3PXQA8g2iO6Tz4_pfGr3lgC0gFii81W8iAa-GxUf2RKGo92p6V7b01nN5d14fOcLjoDOZhkgCG3KYeU1nk7wLQX4e6ylkBs83OXzjna1ZrugbodxAiBJKBgFFWPrkGP4axi7OQBAsVHpIYF9ifgRClGBamO2dgq?purpose=fullsize"  width="250" height="180">
+            <img src="https://images.openai.com/static-rsc-4/7cOIVSt5Afp7gkEtMoZXFWNWYxn3Ac5sRakPqZikUWOBCeV9IdB7Zx2br6UAqVwisDqgHj3vsFqQCEQF63A5ykvEhxo5A7rkuKk4Gfh3QjluJ1bcNZIs-NL8MyuDlp211uQveOZLSgk-eSh4Nf9OVuLATZuezntCl_vJi5wvowYVmCX3bR7nT-cl-CGSOfDk?purpose=fullsize"  width="250" height="180">
+            <img src="https://images.openai.com/static-rsc-4/vwOAP5cbe_iASWR8tYtQ5BzW_ASgQ8f1llkjlJFC2p6OByf0qsafdUupDIaHKVCSuYaqBtJvDYUosK0e_m3N0wOlLaocoaqiwvjkgyrxcC7Km0dSnPuV-qIg2lRbEUSKqE-a40wCH5PIjaNys0UoVuTnMx8dOInyzjxvnnEe3EzUfRXcJubhTlKs11xEi9p_?purpose=fullsize"  width="250" height="180">
+        </p>
+
+        <p>
+            <img src="https://images.openai.com/static-rsc-4/X3W5K3D2jMHO3aALmizHPghyxHreKNsduuwX_49OHh9n8hX4wO5lFVXE-mb0gxwflejadCY6YHib1XksLfNQBz2lJdu4k2xKnso8diTLI_PUud_z7svIuO9k8NyTh54w7YZ1PZ8pqoHyMzuCL4n_ZFs2uN7qUOCJ7jT18f22GYVz-3g9XrU8cPFQqDjBQ_-7?purpose=fullsize" width="250" height="180">
+            <img src="https://images.openai.com/static-rsc-4/9A-M15Dywan4Sm-sT1s5dTjTNFp-d6qSwRyGDPcnMo5SKyGx49SIndVymPek2yLqN8K6axykMdNoMAmGAyJbIPli1csHGAZZ9voACF3VXb34-ikw88vIdht2ggqyqSt-vX233VHtfppVGX7QpfOpYYBgRXX3IwPLCXHC73kzx03-UW9ZxZymso2vq5pcBC4E?purpose=fullsize" width="250" height="180">
+        </p>
+
+         <p>
+            <img src="https://images.openai.com/static-rsc-4/gHvnuI4tkf_7lvBL5tCYDetb0MacFpnJRmOt1A5FbiQXIRkBDsQHlqkMDFLJwf6fp9k1v6Wyz0K6_UEXccVQe0s6gHf0-zGFwL56jbRrxRmEo90on_n4fY-_I-9JFprpgNHMoAP6kAfCJI_oSL9vQF97yoIdZK9zGuSNxNR8iGdozN7te19BCm3YBJRCrzGH?purpose=fullsize"  width="250" height="180">
+            <img src="https://images.openai.com/static-rsc-4/_ha1XvouaxIntrgmA4ZXx40tvRrjQ_vsQNNiEUMdAPyBZ99CSY1h3jxmk95pxZIT-1Dru143S8eO__dfm6GVcf7PxMHREBI5GykmbOfMmCp_HBbNL9xD07vOxZYrQPOR8nCnmaIFnV5mTPTE64blLXkdiFqviPJEWQCX6YQjhMr3EAz-tG4zxAXk_wcwXf0s?purpose=fullsize"  width="250" height="180">
+            <img src="https://images.openai.com/static-rsc-4/M2h1Jz165-XZQ_q9F1x45MSCr56E4nfbS5NrAuAL3s1P56lOK8Ke_hae9IxmeA_V0uDYo6IgCR_92MxCBo7VJihyqkkvsiFvbfrhKkz2TbnpdQSTpfAhblwFfQZ_Cf06NqSDFvw96_kPs8ZmC5GUaPsyr6vIx7M5cN6nvmZLHB7ybei4PaMXwe8Envmmowpc?purpose=fullsize" width="250" height="180">
+        </p>
+
+        <p>
+            <img src="https://images.openai.com/static-rsc-4/XHu0La7FRGrxJ-CxwOXCPuPyBw3fgksuO2HbHzoF6imgksXhCWTB9r50p2sD6lOo9i88Z75eXWFfSvrA_ZzTxfQg4ATmLpLx4GEqRZytWijDu4Duv32GLUPx3wQCFPVSut1a93HunPvnUDWoPw5RCpM83U3jn09aXedjkjyz5NuAug4p2V3mhokX1TPITjHY?purpose=fullsize" width="250" height="180">
+            <img src="https://images.openai.com/static-rsc-4/h5zdkZ8RZ3Rub82vhqG3T4SJp9yThS0WtIUayrsklGG5VwQ_3T1a6s_94vC3OYAcGLJMG6rxCvwBiMvvQTORqHHhXcQybkKm1N0SCCXwoEEodQnTNuA3IKky4mhyoWFQPLlsGIs_uMOkKK3b4fHvMMIO4UkrWHwl52J0CBv6XhOJrmLYROq6MR2kH_Met4ga?purpose=fullsize" width="250" height="180">
+        </p>
+
+        <p>
+            <img src="https://images.openai.com/static-rsc-4/D-lxK3rOczR0hmz1olX3BDK1DpEXwAuiEgzejADXxrGw4vw-dIGLnb4iUIL68gvjLO8ndY5bjPQ_1x0FX_iKje6bbwCb3AjDOy7TnYKr1OtD0VIRSOnsOBi2BDczGyoI-opF9l88j46RtrYryNefqwFvFJ_KpaCWq3sj2j_etg-2h5vZO5QUj8sjiYFAO3i-?purpose=fullsize"  width="250" height="180">
+            <img src="https://images.openai.com/static-rsc-4/95SfDO9vYYxczg2rrOGvx29yR2rlxJPd73p7PUr07_4-Rb_MpUAehCHGHCKBrcf-GcXHeiv8rnprQ_FmJ_lh05LwZeYVUTazt26TiWfxzaj4TdzWu9FhqFrhW4Mxqu1sWbAT_dBXBeIJzDcchXi1iwr-uQpAPcwiwp06nQwbCE6GLLblcVHcQTm6aWvdwRFW?purpose=fullsize"  width="250" height="180">
+            <img src="https://images.openai.com/static-rsc-4/nobhinwo78PFFmM6Jp0dX-PRfV9mOLvUisvIvYyNJirZXssEWTlz8YnhvrbHCC_FFvm_d0ONM7KomoKHW5Mr9lChlEskUH0RYiZKjyH81Dn8RofKyFq9ye4Gf1Gr_NEayZpdSIC3c8IGbR6DH99BoVVTLrIYI6eOuwyfIRtvKLqrA93113MnGqt3dhzgAnrX?purpose=fullsize"  width="250" height="180">
+        </p>
+
+    </center>
+
+
+<footer>
+<p>Ліцей "Львівський"</p>
+<p>Створено ученицею 10-Б класу(Кулікаускас Діана)</p>
+<p> &copy 2026</p>
+</footer>
+
+</body>
+</html>
